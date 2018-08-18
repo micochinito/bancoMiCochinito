@@ -1,0 +1,166 @@
+/* * {
+
+         box-sizing: border-box;
+         outline: 1px solid rgba(140, 0, 0, .14);
+         margin: 0;
+         padding: 0;
+
+} */
+.textotitulo{
+  font-family: 'Baloo Bhai', cursive;
+font-family: 'Coda Caption', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+.textoSi{
+margin-top: 60%;
+margin-right: 20%;
+font-size: 400%;;
+}
+#introduction {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(100,181,246 ,1)), to(rgba(0,0,0,0.8))),url('') 0% 0%/cover;
+  background: -webkit-linear-gradient(rgba(67,8,62 ,1), rgba(0,0,0,0.8)),url('https://images.unsplash.com/photo-1493794179168-82ca7cb00437?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6539288de5249d31f401540417cab49b&auto=format&fit=crop&w=751&q=80') 0% 0%/cover;
+  background: -o-linear-gradient(rgba(153,44,101 ,1), rgba(67,8,62,0.8)),url('https://images.unsplash.com/photo-1493794179168-82ca7cb00437?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6539288de5249d31f401540417cab49b&auto=format&fit=crop&w=751&q=80') 0% 0%/cover;
+  background: linear-gradient(rgba(235,64,108,1), rgba(0,0,0,0.8)),url('https://images.unsplash.com/photo-1493794179168-82ca7cb00437?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6539288de5249d31f401540417cab49b&auto=format&fit=crop&w=751&q=80') 0% 0%/cover
+}
+
+#info-3 {
+  background-image: url('https://images.unsplash.com/photo-1487551806005-717e0e0eebfb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9495f0ba75b1ad1e9a3dbb7cceedee69&auto=format&fit=crop&w=769&q=80');
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(100,181,246 ,1)), to(rgba(0,0,0,0.8))),url('https://images.unsplash.com/photo-1521737524199-ee97f2caf7f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5da5459fde0e34309633c39370edb8e&auto=format&fit=crop&w=750&q=80') 0% 0%/cover;
+  background: -webkit-linear-gradient(rgba(67,8,62 ,1), rgba(0,0,0,0.3)),url('https://images.unsplash.com/photo-1521737524199-ee97f2caf7f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5da5459fde0e34309633c39370edb8e&auto=format&fit=crop&w=750&q=80') 0% 0%/cover;
+  background: -o-linear-gradient(rgba(153,44,101 ,1), rgba(67,8,62,0.3)),url('https://images.unsplash.com/photo-1521737524199-ee97f2caf7f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5da5459fde0e34309633c39370edb8e&auto=format&fit=crop&w=750&q=80') 0% 0%/cover;
+  background: linear-gradient(rgba(235,64,108,1), rgba(0,0,0,0.3)),url('https://images.unsplash.com/photo-1521737524199-ee97f2caf7f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5da5459fde0e34309633c39370edb8e&auto=format&fit=crop&w=750&q=80') 0% 0%/cover
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.fill-viewport {
+  min-height: 100vh
+}
+
+.fill-80-viewport {
+  min-height: 80vh;
+}
+
+.text-white-70 {
+  color: rgba(255,255,255,0.7)
+}
+.text-black-70 {
+   color: rgba(0,0,0,0.7)
+}
+.text-black-40 {
+   color: rgba(0,0,0,0.4)
+}
+
+@media screen and (min-width: 768px ){
+  .basis-md-50 {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%
+  }
+}
+
+.list-border-y li {
+  border-top: 1px solid
+}
+.list-border-y li:last-child {
+  border-bottom: 1px solid
+}
+.list-border-black-20 li,
+.list-border-black-20 li:last-child{
+  border-color: rgba(0,0,0,0.2)
+}
+  background: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)),url('http://bit.ly/2fBj6OJ') 0% 0%/cover
+}
+
+/* .info-3 {
+  margin-top: 15%;
+  background-image: url('http://moneyhighstreet.com/wp/wp-content/uploads/2017/09/older-lady-sitting-bench.jpeg');
+  background-size: cover;
+
+
+} */
+
+.fill-viewport {
+  min-height: 100vh
+}
+
+.fill-80-viewport {
+  min-height: 80vh
+}
+
+.text-white-70 {
+  color: rgba(255,255,255,0.7)
+}
+.text-black-70 {
+   color: rgba(0,0,0,0.7)
+}
+.text-black-40 {
+   color: rgba(0,0,0,0.4)
+}
+
+@media screen and (min-width: 768px ){
+  .basis-md-50 {
+    flex-basis: 50%
+  }
+}
+
+.list-border-y li {
+  border-top: 1px solid
+}
+.list-border-y li:last-child {
+  border-bottom: 1px solid
+}
+.list-border-black-20 li,
+.list-border-black-20 li:last-child{
+  border-color: rgba(0,0,0,0.2)
+}
+.footer{
+  background-color:
+}
+.interlineado{
+  line-height: 1.9 ;
+
+}
+#info-2{
+  margin-top: 7%;
+}
+
+
+.center{
+  text-align: center;
+  margin-left: 5%;
+}
+.botonLike{
+  background-color:#EB406C;
+  color: #FFFFFF;
+  width: 30%;
+  text-align: center;
+  text-decoration: none;
+   display: inline-block;
+    border: none;
+}
+.botonLike2{
+  margin-top: 2%;
+
+  background-color:#EB406C;
+  color: #FFFFFF;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+   display: inline-block;
+    border: none;
+}
+.contador{
+  left: 5%;
+  font-size: 60px;
+  color:#FFFFFF
+}
+
+.footer{
+  background-color: #413f54;
+  height: auto;
+  padding:1%;
+  color: #FFFFFF;
+  text-align: center;
+}
