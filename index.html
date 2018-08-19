@@ -17,11 +17,10 @@
      <div class="row fill-viewport align-items-center">
         <div class="col-6 col-md-6">
           <h1 class="text-white textotitulo">¿Te imaginas un mundo donde el dinero no sea un problema para </h1>
-           <p class="lead text-white-70">[ cumplir tus
-sueños, seguir estudiando, lanzar un proyecto, apoyar a tu familia] </p>
+           <p id="maquina" class="lead text-white-70"> </p>
 
         </div>
-				<div class="col-6 col-md-6">
+				<div class="col-s-6  col-md-6">
 					<h1 class="text-white  textoSi">Nosotros SÍ</h1>
         </div>
      </div>
@@ -37,13 +36,11 @@ sueños, seguir estudiando, lanzar un proyecto, apoyar a tu familia] </p>
      </div>
      <div class="col">
        <h6 class="text-uppercase text-black-40">
-				 <strong>Seremos un servicio financiero pensado en ti. La
-primer tarjeta que funcione mejor que el efectivo.</strong>
-        </h6>
-       <h3 class="">Somos las ganas de ser y hacer una banca
-transparente.</h3>
-       <h5>Retira y recibe depósitos desde tiendas de
-conveniencia.</h5>
+				 <strong>Seremos un servicio financiero pensado en ti.</strong>
+      </h6>
+        <h5>La primer tarjeta que funcione mejor que el efectivo.</h5>
+       <h5 class="">Somos las ganas de ser y hacer una banca transparente.</h5>
+       <h5>Retira y recibe depósitos desde tiendas de conveniencia.</h5>
 				<h5>Abre una cuenta desde tu celular en minutos.</h5>
 				<br>
 				<br>
@@ -76,14 +73,14 @@ conveniencia.</h5>
    <div class="row align-items-center fill-80-viewport">
      <div class="col-12 col-md-6 my-5 order-2 order-md-1 " >
        <h3 class="text-uppercase text-white  interlineado"><strong>Seremos la opción para quienes no encuentran alternativa</strong></h3>
-       <h2 class="text-white interlineado">de servicios financieros</h2>
+       <h3 class="text-uppercase text-white  interlineado"><strong>de servicios financieros</strong></h3>
 			 <br>
-			 <span class="center contador">+55</span><br>
+			 <span class=" contador center ">0</span><br>
 			<button  class="  btn-lg active center botonLike"type="button" name="button">Me gusta</button>
 
      </div>
      <div class="col-12 col-md-6 my-5 order-1 order-md-2 py-4  rounded text-info">
-			 <img src="images/tarjeta_3.png"  width="75%"/>
+			 <img src="images/tarjeta_3.png"  width="75%" class="square large el"/>
 		</div>
    </div>
  </div>
@@ -114,6 +111,17 @@ Colectivo SAPI de CV</p>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/main.js"></script>
+    <script>
+        const config = {
+            id: "maquina",
+            texto: " [cumplir tus sueños, seguir estudiando, lanzar un proyecto, apoyar a tu familia]?"
+        }
+        const iniciar = new MaquinaEscribir(config);
+        iniciar.iniciarMaquina();
+    </script>
+
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

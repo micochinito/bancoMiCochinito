@@ -152,7 +152,7 @@ font-size: 400%;;
     border: none;
 }
 .contador{
-  left: 5%;
+  margin-left: 14%;
   font-size: 60px;
   color:#FFFFFF
 }
@@ -163,4 +163,10 @@ font-size: 400%;;
   padding:1%;
   color: #FFFFFF;
   text-align: center;
+}
+
+
+.lead  {
+  font-size: 1.60rem;
+  font-weight: 300;
 }
