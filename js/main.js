@@ -30,7 +30,7 @@ document
   var totalCountsEl =document.querySelector(".contador")
   var cliKCoustNumStr = totalCountsEl.textContent
   var cliKCoustNum = parseInt(cliKCoustNumStr)
-  if (cliKCoustNum + 1 > 50000) {
+  if (cliKCoustNum + 1 === increaseCount) {
     true
   }else{
     totalCountsEl.textContent = cliKCoustNum + 1
